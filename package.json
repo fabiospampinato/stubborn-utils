@@ -2,7 +2,7 @@
   "name": "stubborn-utils",
   "repository": "github:fabiospampinato/stubborn-utils",
   "description": "A small collection of utilities for making functions somewhat resilient against errors.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "main": "dist/index.js",
   "exports": "./dist/index.js",
