@@ -89,7 +89,7 @@ const asyncFunction = async () => {
 
 const retryifiedAsyncFunction = retryifyAsync ( asyncFunction, {
   isRetriable: error => {
-    return true; // Always retriablein this scenario
+    return true; // Always retriable in this scenario
   }
 });
 
@@ -124,7 +124,7 @@ const syncFunction = () => {
 
 const retryifiedSyncFunction = retryifySync ( syncFunction, {
   isRetriable: error => {
-    return true; // Always retriablein this scenario
+    return true; // Always retriable in this scenario
   }
 });
 
